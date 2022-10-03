@@ -1,9 +1,14 @@
 
 import 'package:flutter/material.dart';
 
-class ProjectThree extends StatelessWidget {
+class ProjectThree extends StatefulWidget {
   const ProjectThree({Key? key}) : super(key: key);
 
+  @override
+  State<ProjectThree> createState() => _ProjectThreeState();
+}
+
+class _ProjectThreeState extends State<ProjectThree> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
